@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #007AFF;
+  --color-secondary: #6B7280;
+  --color-dark: #1F2937;
+  --color-light: #F9FAFB;
+  --color-text: #000000;
+  --color-bg: #ffffff;
+  --color-red-orange-500: #ef4444;
+
+  --font-family-archivo: var(--font-archivo);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Global heading styles with Archivo font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-archivo), sans-serif;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+@layer components {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+
+
+
+  /* Text animation styles for word reveal */
+  .line {
+    overflow: hidden;
+  }
+
+  .word {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary/90;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-center;
+  }
+
+  .font-archivo {
+    font-family: var(--font-archivo), sans-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
