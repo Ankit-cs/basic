@@ -13,7 +13,7 @@ const useTextRevealAnimation = () => {
   useEffect(() => {
     if (isMounted && scope.current && typeof window !== 'undefined') {
       new SplitType(scope.current, {
-        types: "lines, words",
+        types: "lines,words",
         tagName: "span",
       });
     }
