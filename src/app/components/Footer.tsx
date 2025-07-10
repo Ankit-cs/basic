@@ -63,7 +63,7 @@ const Footer: FC = () => {
                 className="text-4xl mt-8 md:text-7xl lg:text-8xl font-extralight font-archivo"
                 ref={scope}
               >
-                Enough talk. Let's make something great together.
+                Enough talk. Let&apos;s make something great together.
               </h2>
 
               <a href="mailto:ankitcareer018@gmail.com">

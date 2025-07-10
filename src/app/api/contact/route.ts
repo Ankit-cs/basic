@@ -68,7 +68,6 @@ export async function POST(request: Request) {
     )
   } catch (error: unknown) {
     console.error('Email sending error:', error)
-    const errorMessage = error instanceof Error ? error.message : 'Failed to send message'
     return NextResponse.json(
       { message: 'Failed to send message. Please try again.' },
       { status: 500 }

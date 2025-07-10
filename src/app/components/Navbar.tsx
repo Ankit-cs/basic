@@ -47,7 +47,7 @@ const Navbar: FC = () => {
 
       navAnimate(navScope.current, { height: 0 });
     }
-  }, [isOpen]);
+  }, [isOpen, topLineAnimate, topLineScope, bottomLineAnimate, bottomLineScope, navAnimate, navScope]);
 
   const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
