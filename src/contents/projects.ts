@@ -60,11 +60,11 @@ export const projects: Project[] = [
    image: '/projects/task-manager.webp',
 },
 {
-  title: 'Pixor',
+  title: 'Pexxel',
   description: 'A sleek and intuitive photo editor that empowers users to crop, enhance, and transform images effortlessly—all in the browser, with support for real-time collaboration.',
   technologies: ['Next.js', 'Tailwind CSS', 'Shadcn/UI', 'TypeScript', 'fabric.js', 'ImageKit'],
   githubLink: 'https://github.com/Ankit-cs/pixor-photo-editor',
-  demoLink: 'https://pixor-editor.vercel.app',
+  demoLink: 'https://pexxel.vercel.app',
   image: '/projects/task-manager.webp',
 },
 {
