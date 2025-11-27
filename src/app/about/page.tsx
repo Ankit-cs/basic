@@ -147,9 +147,9 @@ const About: FC = () => {
             <h3 className="text-2xl md:text-4xl font-archivo text-stone-600 mb-4 font-extralight">
               Passionate about creating digital experiences
             </h3>
-            <p className="text-stone-500 max-w-2xl mx-auto">
-              I specialize in full-stack development, bringing ideas to life through modern web technologies.
-            </p>
+           // <p className="text-stone-500 max-w-2xl mx-auto">
+             // I specialize in full-stack development, bringing ideas to life through modern web technologies.
+           // </p>
           </div>
         </div>
       </section>
@@ -250,7 +250,7 @@ const About: FC = () => {
                 </a>
 
                 <a
-                  href="https://www.codechef.com/users/ankit_cp_18"
+                  href="https://www.codechef.com/users/ankit_cp_19"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-red-orange-500 transition-colors duration-300 flex items-center gap-2 text-sm group/button"
