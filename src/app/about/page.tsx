@@ -175,10 +175,9 @@ const About: FC = () => {
               <FaCode className="h-8 w-8 text-red-orange-500 mb-4" />
               <h3 className="text-xl font-semibold mb-2 font-archivo">Frontend</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>React / Next.js</li>
+                <li>Next.js</li>
                 <li>TypeScript</li>
                 <li>Tailwind CSS</li>
-                <li>HTML5 / CSS3</li>
               </ul>
             </motion.div>
 
@@ -191,10 +190,8 @@ const About: FC = () => {
               <h3 className="text-xl font-semibold mb-2 font-archivo">Backend</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>Node.js</li>
-                <li>Express</li>
+                <li>Spring</li>
                 <li>PostgreSQL</li>
-                <li>Rust</li>
-                <li>MongoDB</li>
               </ul>
             </motion.div>
 
@@ -208,8 +205,7 @@ const About: FC = () => {
               <ul className="text-gray-600 space-y-2">
                 <li>Git / GitHub</li>
                 <li>Docker</li>
-                <li>AWS</li>
-                <li>CI/CD</li>
+                <li>Cursor IDE</li>
               </ul>
             </motion.div>
 
@@ -221,10 +217,10 @@ const About: FC = () => {
               <div className="w-8 h-8 bg-red-orange-500 rounded-full flex items-center justify-center mb-4">
                 <span className="text-white font-bold text-sm">DSA</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 font-archivo">Codolio</h3>
+              <h3 className="text-xl font-semibold mb-2 font-archivo">CP</h3>
               <div className="space-y-3">
                 <a
-                  href="https://codeforces.com/profile/ankitcs"
+                  href="https://codeforces.com/profile/Ankit-cp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-red-orange-500 transition-colors duration-300 flex items-center gap-2 text-sm group/button"
@@ -254,7 +250,7 @@ const About: FC = () => {
                 </a>
 
                 <a
-                  href="https://www.codechef.com/users/ankitcs"
+                  href="https://www.codechef.com/users/ankit_cp_18"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-red-orange-500 transition-colors duration-300 flex items-center gap-2 text-sm group/button"
@@ -284,42 +280,12 @@ const About: FC = () => {
                 </a>
 
                 <a
-                  href="https://leetcode.com/ankitcs"
+                  href="https://leetcode.com/ankit_18_cp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-red-orange-500 transition-colors duration-300 flex items-center gap-2 text-sm group/button"
                 >
                   <span>LeetCode</span>
-                  <div className="size-4 overflow-hidden">
-                    <div className="w-8 h-4 flex group-hover/button:-translate-x-1/2 transition-transform duration-500">
-                      {[...Array(2)].map((_, idx) => (
-                        <svg
-                          key={idx}
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          className="size-4"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                          />
-                        </svg>
-                      ))}
-                    </div>
-                  </div>
-                </a>
-
-                <a
-                  href="https://www.geeksforgeeks.org/user/your_username"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-red-orange-500 transition-colors duration-300 flex items-center gap-2 text-sm group/button"
-                >
-                  <span>GeeksforGeeks</span>
                   <div className="size-4 overflow-hidden">
                     <div className="w-8 h-4 flex group-hover/button:-translate-x-1/2 transition-transform duration-500">
                       {[...Array(2)].map((_, idx) => (
@@ -368,12 +334,11 @@ const About: FC = () => {
               {...cardHover}
             >
               <h3 className="text-xl font-semibold mb-2 font-archivo">Backend Developer Intern</h3>
-              <p className="text-red-orange-500 mb-2 font-medium">Voat Networks • 06/2025 - 08/2025</p>
+              <p className="text-red-orange-500 mb-2 font-medium">Voat Networks • 06/2025 - 09/2025</p>
               <ul className="text-gray-600 list-disc list-inside space-y-2">
                 <li>Led development of multiple web applications using React and Node.js</li>
                 <li>Developed and maintained RESTful APIs</li>
                 <li>Built responsive user interfaces with modern JavaScript frameworks</li>
-                <li>Optimized database queries improving performance by 40%</li>
               </ul>
             </motion.div>
           </motion.div>
@@ -399,9 +364,9 @@ const About: FC = () => {
               {...cardHover}
             >
               <h3 className="text-xl font-semibold mb-2 font-archivo">Bachelor of Technology in Computer Science</h3>
-              <p className="text-red-orange-500 mb-2 font-medium">Chhatrapati Sahu Ji Maharaj University, Kanpur • 2023 - 2027</p>
+              <p className="text-red-orange-500 mb-2 font-medium">Chhatrapati Shahu Ji Maharaj University, Kanpur • 2023 - 2027</p>
               <p className="text-gray-600">
-                Entered in 3rd Year. Focused on software engineering and web development.
+                Currently in 3rd Year. Focused on system design and software development.
               </p>
             </motion.div>
           </motion.div>
